@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+    // this neatly dumps a request
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		dump, err := httputil.DumpRequest(r, true)
 		if err != nil {
