@@ -15,9 +15,9 @@ func main() {
 			return
 		}
 		fmt.Fprintf(w, "%q", "ok\n")
-		fmt.Println("----------------------------")
+		fmt.Println("------------------------------")
 		fmt.Println(string(dump))
-		fmt.Println("----------------------------")
+		fmt.Println("------------------------------")
 	})
 
 	log.Println("Now listening on 8080")
