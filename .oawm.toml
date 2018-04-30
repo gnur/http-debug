@@ -1,0 +1,9 @@
+[docker]
+buildfile = "/dist/.oawm/Dockerfile"
+repository = "r.erwin.land/gnur/http-debug"
+
+
+[[stages]]
+name = "build"
+image = "golang:1.10-alpine"
+script = "/src/.oawm/build.sh"
