@@ -10,5 +10,5 @@ script = "/src/.oawm/build.sh"
 
 [deployment]
 enabled = true
-branches = ".*"
-namespaces = [ "default" ]
+onlymaster = false
+namespace = "default"
