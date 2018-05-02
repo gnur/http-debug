@@ -14,7 +14,7 @@ func main() {
 			http.Error(w, fmt.Sprint(err), http.StatusInternalServerError)
 			return
 		}
-		fmt.Fprintf(w, "%q", "ok\n")
+		fmt.Fprintf(w, "%q", "ok")
 		fmt.Println("------------------------------")
 		fmt.Println(string(dump))
 		fmt.Println("------------------------------")
