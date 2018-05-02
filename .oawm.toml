@@ -7,3 +7,8 @@ repository = "r.erwin.land/gnur/http-debug"
 name = "build"
 image = "golang:1.10-alpine"
 script = "/src/.oawm/build.sh"
+
+[deployment]
+enabled = true
+branches = ".*"
+namespaces = "default"
